@@ -14,6 +14,10 @@
 		D701186C1CA90D0E00B528D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D701186A1CA90D0E00B528D5 /* Main.storyboard */; };
 		D701186E1CA90D0E00B528D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D701186D1CA90D0E00B528D5 /* Assets.xcassets */; };
 		D70118711CA90D0E00B528D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D701186F1CA90D0E00B528D5 /* LaunchScreen.storyboard */; };
+		D70118801CA90E7A00B528D5 /* Translator.m in Sources */ = {isa = PBXBuildFile; fileRef = D70118791CA90E7A00B528D5 /* Translator.m */; };
+		D70118811CA90E7A00B528D5 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = D701187B1CA90E7A00B528D5 /* Tweet.m */; };
+		D70118821CA90E7A00B528D5 /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D701187D1CA90E7A00B528D5 /* TweetCell.m */; };
+		D70118831CA90E7A00B528D5 /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = D701187F1CA90E7A00B528D5 /* Twitter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,15 @@
 		D701186D1CA90D0E00B528D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70118701CA90D0E00B528D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D70118721CA90D0E00B528D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70118781CA90E7A00B528D5 /* Translator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Translator.h; sourceTree = "<group>"; };
+		D70118791CA90E7A00B528D5 /* Translator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Translator.m; sourceTree = "<group>"; };
+		D701187A1CA90E7A00B528D5 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		D701187B1CA90E7A00B528D5 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		D701187C1CA90E7A00B528D5 /* TweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCell.h; sourceTree = "<group>"; };
+		D701187D1CA90E7A00B528D5 /* TweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCell.m; sourceTree = "<group>"; };
+		D701187E1CA90E7A00B528D5 /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		D701187F1CA90E7A00B528D5 /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
+		D70118841CA90ECE00B528D5 /* Secret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secret.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +95,14 @@
 		D70118601CA90D0E00B528D5 /* TranslationTwitter2 */ = {
 			isa = PBXGroup;
 			children = (
+				D70118781CA90E7A00B528D5 /* Translator.h */,
+				D70118791CA90E7A00B528D5 /* Translator.m */,
+				D701187A1CA90E7A00B528D5 /* Tweet.h */,
+				D701187B1CA90E7A00B528D5 /* Tweet.m */,
+				D701187C1CA90E7A00B528D5 /* TweetCell.h */,
+				D701187D1CA90E7A00B528D5 /* TweetCell.m */,
+				D701187E1CA90E7A00B528D5 /* Twitter.h */,
+				D701187F1CA90E7A00B528D5 /* Twitter.m */,
 				D70118641CA90D0E00B528D5 /* AppDelegate.h */,
 				D70118651CA90D0E00B528D5 /* AppDelegate.m */,
 				D70118671CA90D0E00B528D5 /* ViewController.h */,
@@ -91,6 +112,7 @@
 				D701186F1CA90D0E00B528D5 /* LaunchScreen.storyboard */,
 				D70118721CA90D0E00B528D5 /* Info.plist */,
 				D70118611CA90D0E00B528D5 /* Supporting Files */,
+				D70118841CA90ECE00B528D5 /* Secret.h */,
 			);
 			path = TranslationTwitter2;
 			sourceTree = "<group>";
@@ -225,6 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70118691CA90D0E00B528D5 /* ViewController.m in Sources */,
+				D70118801CA90E7A00B528D5 /* Translator.m in Sources */,
+				D70118811CA90E7A00B528D5 /* Tweet.m in Sources */,
+				D70118831CA90E7A00B528D5 /* Twitter.m in Sources */,
+				D70118821CA90E7A00B528D5 /* TweetCell.m in Sources */,
 				D70118661CA90D0E00B528D5 /* AppDelegate.m in Sources */,
 				D70118631CA90D0E00B528D5 /* main.m in Sources */,
 			);
