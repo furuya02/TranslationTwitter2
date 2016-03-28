@@ -43,6 +43,7 @@
 		D701187E1CA90E7A00B528D5 /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
 		D701187F1CA90E7A00B528D5 /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
 		D70118841CA90ECE00B528D5 /* Secret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secret.h; sourceTree = "<group>"; };
+		D7E1BB521CA91027008E0EAB /* Secret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secret.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +114,7 @@
 				D70118721CA90D0E00B528D5 /* Info.plist */,
 				D70118611CA90D0E00B528D5 /* Supporting Files */,
 				D70118841CA90ECE00B528D5 /* Secret.h */,
+				D7E1BB521CA91027008E0EAB /* Secret.h */,
 			);
 			path = TranslationTwitter2;
 			sourceTree = "<group>";
